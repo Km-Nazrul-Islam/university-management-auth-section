@@ -6,14 +6,18 @@
   "scripts": {
     "start": "ts-node-dev --respawn --transpile-only src/server.ts",
     "lint:check": "eslint --ignore-path .eslintignore --ext .js,.ts .",
-    "lint:fix": "eslint . --fix",
+    "lint:fixed": "eslint . --fix",
     "prettier:check": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
-    "lint-prettier:check": "yarn lint:check && yarn prettier:check",
+    "prettier:fixed": "prettier --write .",
+    "lint_prettier:check": "yarn lint:check && yarn prettier:check",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "lint-staged": {
+    "src/**/*.ts": "yarn lint_prettier:check"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.59.9",
     "@typescript-eslint/parser": "^5.59.9",
@@ -23,9 +27,6 @@
     "eslint-config-prettier": "^8.8.0",
     "express": "^4.18.2",
     "mongoose": "^7.2.2"
-  },
-  "lint-staged": {
-    "src/**/*.ts": "yarn lint-prettier:check"
   },
   "devDependencies": {
     "@types/cors": "^2.8.13",
