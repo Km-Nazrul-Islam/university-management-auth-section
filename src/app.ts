@@ -1,5 +1,5 @@
 import cors from 'cors'
-import express, { Application } from 'express'
+import express, { Application, Response } from 'express'
 
 const app: Application = express()
 
@@ -8,7 +8,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 //testing perpas
-app.get('/', (req: Requests, res: any) => {
+app.get('/', (req: Request, res: Response) => {
   res.send('Working Successfully')
 })
 
