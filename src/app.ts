@@ -9,7 +9,7 @@ app.use(express.urlencoded({ extended: true }))
 
 //testing perpas
 app.get('/', (req: Request, res: any) => {
-  res.send('Working Successfully')
+  res.send('Working Successfully true')
 })
 
 export default app
