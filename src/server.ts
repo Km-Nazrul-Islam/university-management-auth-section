@@ -1,6 +1,6 @@
-import mongoose from "mongoose"
-import app from "./app"
-import config from "./config"
+import mongoose from 'mongoose'
+import app from './app'
+import config from './config'
 
 async function bootstrap() {
   try {
@@ -11,7 +11,7 @@ async function bootstrap() {
       console.log(`Application listening on port ${config.port}`)
     })
   } catch (err) {
-    console.log("Failed to Connected Database", err)
+    console.log('Failed to Connected Database', err)
   }
 }
 
