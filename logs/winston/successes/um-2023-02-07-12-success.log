@@ -1,0 +1,84 @@
+{
+  message: 'Database Connected Successfull',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-07-02T06:07:01.895Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-07-02T06:07:01.927Z'
+}
+{
+  message: 'Database Connected Successfull',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-07-02T06:07:27.608Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-07-02T06:07:27.629Z'
+}
+{
+  message: 'Database Connected Successfull',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-07-02T06:07:57.205Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-07-02T06:07:57.233Z'
+}
+{
+  message: 'Database Connected Successfull',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-07-02T06:08:04.448Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-07-02T06:08:04.475Z'
+}
+{
+  message: 'Database Connected Successfull',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-07-02T06:09:48.965Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-07-02T06:09:48.997Z'
+}
+{
+  message: 'Database Connected Successfull',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-07-02T06:35:51.456Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-07-02T06:35:51.485Z'
+}
+{
+  message: 'Database Connected Successfull',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-07-02T06:36:21.809Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-07-02T06:36:21.846Z'
+}
